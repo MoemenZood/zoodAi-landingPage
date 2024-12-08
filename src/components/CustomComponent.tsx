@@ -20,7 +20,7 @@ export default function CustomComponent(){
     </h2>
     <p>Integrate your front of house & kitchen staff seamlessly leaving no room for unnecessary delays or mistakes.
 
-</p>
+  </p>   
 </div>
 </div>  
 {/* section */}
