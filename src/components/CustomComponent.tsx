@@ -18,7 +18,7 @@ export default function CustomComponent(){
 <div className="flex flex-col justify-center px-[30px] gap-10"> 
     <h2 className="text-5xl font-semibold leading-[50px] ">Streamline Your Operations Even More with Foodics
     </h2>
-    <p>Integrate your front of house & kitchen staff seamlessly leaving no room for unnecessary delays or mistakes.
+    <p>Integrate your   front of house & kitchen staff seamlessly leaving no room for unnecessary delays or mistakes.
 
   </p>   
 </div>
