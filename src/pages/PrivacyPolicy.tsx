@@ -23,65 +23,78 @@ const PrivacyPolicy = () => {
             <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
               WHO WE ARE AND WHAT WE DO
             </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              We are Zood Ai and our address is Imam Saud Bin Faisal Rd, Riyadh, 13515, 2nd Floor, Kingdom of Saudi Arabia telephone 800 1000 119 with email contact (“Zood Ai,” “we,” “us,” “our”). Zood Ai is a business name of Alwans For Information Technology LLC. Zood Ai provides the following products and services (“Products”):
+            <p className="mt-4 text-xl text-gray-500">  
+            
+              We are Zood Ai and our address is Qesm El Maadi, Cairo, Egypt telephone +20 108 092 5119 with email contact (“Zood Ai,” “we,” “us,” “our”). Zood Ai is a business name of Alwans For Information Technology LLC. Zood Ai provides the following products and services (“Products”):
             </p>
-            <ul className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto list-disc list-inside">
-              <li>
-                Zood Ai RMS – a cloud-based restaurant management solution (RMS) including the provision of websites and KIOSKs.
-              </li>
-              <li>
-                Zood Ai Pay – a licensed payment aggregator.
-              </li>
+            <ul className="list-disc list-inside mt-4 text-xl text-gray-500">
+              <li>Zood Ai RMS – a cloud-based restaurant management solution (RMS) including the provision of websites and KIOSKs</li>
+              <li>Zood Ai Pay – a licensed payment aggregator</li>
             </ul>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            <p className="mt-4 text-xl text-gray-500">
               In providing the Products, Zood Ai will process personal data. This document sets out how Zood Ai processes personal data for both Zood Ai RMS and Zood Ai Pay. This includes personal data collected when you use our website (“Website”) and Products (together, “Services”).
             </p>
           </section>
 
           <section>
             <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              DATA WE COLLECT
+              WHAT DOES THIS POLICY COVER?
             </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Zood Ai collects personal data that you provide directly to us when using our Services, such as during registration, subscription, and interaction with customer support. This may include your name, email address, phone number, payment details, and other necessary information.
+            <p className="mt-4 text-xl text-gray-500">
+              Zood Ai takes your personal data seriously and processes it in accordance with applicable laws and regulations. Zood Ai acts as the ‘controller’ (i.e., person responsible for deciding how your personal data is processed) and has adopted this privacy policy (“Policy”) to establish and maintain the privacy and security of your personal data. This Policy:
+            </p>
+            <ul className="list-disc list-inside mt-4 text-xl text-gray-500">
+              <li>Sets out the types of personal data we collect about you</li>
+              <li>Explains how and why we collect and use your personal data</li>
+              <li>Explains how long we keep your personal data</li>
+              <li>Explains how we will share your personal data – when, why, and who with</li>
+              <li>Explains the different rights and choices you have when it comes to your personal data</li>
+              <li>Explains the security measures we apply to protect your personal data</li>
+              <li>Explains how we may contact you and how you can contact us</li>
+            </ul>
+            <p className="mt-4 text-xl text-gray-500">
+              Please understand that by accepting this Policy and submitting any personal data to us, you agree that we may collect, use, disclose, and retain such data in accordance with this Privacy Policy, and as permitted or required by law.
+            </p>
+          </section>
+ 
+ 
+          <section>
+            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
+              WHAT PERSONAL DATA DO WE COLLECT ABOUT YOU AND HOW DO WE COLLECT IT?
+            </h2>
+            <p className="mt-4 text-xl text-gray-500">
+              We collect the content, communications, and other information you provide when you use our Services, including during registration or communication with us. This includes your name, email address, phone number, name of your business (if relevant), location/country, and payment information (if relevant).
+            </p>
+            <p className="mt-4 text-xl text-gray-500">
+              For Zood Ai Pay, we need to carry out customer due diligence and KYC, which includes collecting ID validation, CR validation, and other onboarding information.
+            </p>
+            <p className="mt-4 text-xl text-gray-500">
+              For Zood Ai RMS, we collect CR information, ID information, VAT registration information, session/meeting recordings, and other relevant data.
+            </p>
+            <p className="mt-4 text-xl text-gray-500">
+              We also collect usage information, device information, and your opinions about our products and services.
             </p>
           </section>
 
-          <section>
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              HOW WE USE YOUR DATA
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Zood Ai uses your personal data to deliver our Services, process transactions, provide customer support, improve our products, and comply with legal obligations. We may also use your data for marketing purposes if you provide explicit consent.
-            </p>
-          </section>
+          {/* Continue adding other sections in a similar format */}
 
           <section>
             <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              SHARING YOUR DATA
+              HOW CAN YOU CONTACT US?
             </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              We may share your data with trusted third parties that help us provide our Services, such as payment processors, cloud storage providers, and analytics services. We ensure that these parties comply with strict data protection requirements.
+            <p className="mt-4 text-xl text-gray-500">
+              If you are unhappy with how we’ve handled your personal data or have further questions, contact us here:
             </p>
-          </section>
-
-          <section>
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              YOUR RIGHTS
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              You have the right to access, correct, or delete your personal data. Additionally, you can object to or restrict the processing of your data under certain circumstances. To exercise these rights, contact us at support@zoodai.com.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              CHANGES TO THIS POLICY
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Zood Ai may update this Privacy Policy from time to time. We will notify you of significant changes through email or by placing a notice on our Website.
-            </p>
+            <ul className="list-disc list-inside mt-4 text-xl text-gray-500">
+              <li>By email: privacy@zoodai.com</li>
+              <li>
+                By written notice to:
+                <br />
+                The Data Protection Office
+                <br />
+                Qesm El Maadi, Cairo, Egypt 
+                              </li>
+            </ul>
           </section>
         </div>
       </div>

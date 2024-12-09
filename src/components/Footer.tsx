@@ -16,7 +16,7 @@ export function Footer() {
             <span className="ml-2 text-xl font-bold text-white">Zood AI</span>
           </div>
           <div className="flex space-x-6">
-            <Link target='_blank' to="/privacy-policy" className="text-gray-400 underline hover:text-gray-300">
+            <Link  to="/privacy-policy" className="text-gray-400 underline hover:text-gray-300">
               Privacy Policy
             </Link>
             <Link to="/terms-and-conditions" className="text-gray-400 hover:text-gray-300 underline">
