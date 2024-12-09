@@ -1,10 +1,11 @@
+
 export default function CustomComponent(){
     return(  
         <>  
         {/* section one w-[750px] */}
 <div className="flex  px-[150px] my-6 "> 
 <div> 
-<img className="flex-grow  w-[700px] h-[400px] " src="../../four.jpg" alt="image"/>
+<img className="flex-grow  w-[700px] h-[400px] " src="../assets/four.jpg" alt="image"/>
 </div> 
 <div className="flex flex-col justify-center px-[30px] gap-10"> 
     <h2 className="text-5xl font-semibold leading-[50px] ">Stay in Control, Whenever, Wherever</h2>
@@ -18,13 +19,13 @@ export default function CustomComponent(){
     <p>Integrate your   front of house & kitchen staff seamlessly leaving no room for unnecessary delays or mistakes.</p>   
 </div>
 <div> 
-<img className="flex-grow  w-[700px] h-[400px]" src="../../dashboard.jpg" alt="image"/>
+<img className="flex-grow  w-[700px] h-[400px]" src="../assets/dashboard.jpg" alt="image"/>
 </div> 
 </div>  
 {/* section w-[624px] */}
 <div className="flex  px-[150px] my-6 mb-[30px] "> 
 <div> 
-<img className="flex-grow  w-[700px] h-[400px] " src="../../three.webp" alt="image"/>
+<img className="flex-grow  w-[700px] h-[400px] " src="../assets/three.webp" alt="image"/>
 </div> 
 <div className="flex flex-col justify-center  gap-10"> 
     <h2 className="text-5xl font-semibold leading-[50px] ">Know Your Customers, Serve Them Better
