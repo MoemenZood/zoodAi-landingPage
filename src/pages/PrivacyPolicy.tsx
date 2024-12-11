@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
             </h2>
             <p className="mt-4 text-xl text-gray-500">  
             
-              We are Zood Ai and our address is Qesm El Maadi, Cairo, Egypt telephone +20 108 092 5119 with email contact (“Zood Ai,” “we,” “us,” “our”). Zood Ai is a business name of Alwans For Information Technology LLC. Zood Ai provides the following products and services (“Products”):
+              We are Zood Ai and our address is Qesm El Maadi, Cairo, Egypt telephone +20 108 092 5119 with email contact (“Zood Ai,” “we,” “us,” “our”). Zood Ai provides the following products and services (“Products”):
             </p>
             <ul className="list-disc list-inside mt-4 text-xl text-gray-500">
               <li>Zood Ai RMS – a cloud-based restaurant management solution (RMS) including the provision of websites and KIOSKs</li>
