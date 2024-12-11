@@ -18,9 +18,8 @@ const TermsAndConditions = () => {
           <section>
             <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Overview</h2>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              The following Terms and Conditions are a legal agreement between you, as a current or 
-              prospective customer of ALWANS for Information Technology Company, otherwise known as Zood Ai, 
-              the user (“you,” “your”) and Zood Ai, an affiliate of Alwans Strategy for Information Technology, 
+              The following Terms and Conditions are a legal agreement between you, otherwise known as Zood Ai, 
+              the user (“you,” “your”) and Zood Ai, 
               which includes [insert all sister companies/subsidiaries] (“Zood Ai,” “we,” “us,” “our”), in order 
               to govern your use of Zood Ai’s services, including mobile applications, websites, software, 
               hardware, and other products and services (collectively, the “Services”).
