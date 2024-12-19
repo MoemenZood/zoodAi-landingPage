@@ -71,7 +71,7 @@ const styles = {
   },
   title: {
     fontSize: "1.5rem",
-    color: "#3B82F6", // TailwindCSS text-blue-500 color
+    color: "#2563EB", // TailwindCSS text-blue-600 color
     marginBottom: "20px",
     textAlign: "center",
   },
@@ -100,7 +100,7 @@ const styles = {
     padding: "12px",
     fontSize: "1rem",
     color: "#fff",
-    backgroundColor: "#3B82F6", // TailwindCSS text-blue-500 color
+    backgroundColor: "#2563EB", // TailwindCSS text-blue-600 color
     border: "none",
     borderRadius: "8px",
     cursor: "pointer",
