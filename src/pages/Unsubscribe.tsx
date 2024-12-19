@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Navbar } from "../components/Navbar";
 
 const Unsubscribe = () => {
   const [email, setEmail] = useState("");
@@ -36,21 +37,25 @@ const Unsubscribe = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <form onSubmit={handleSubmit} style={styles.form}>
-        <input
-          type="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={styles.input}
-        />
-        <button type="submit" style={styles.button}>
-          Submit
-        </button>
-      </form>
-      {message && <p style={styles.message}>{message}</p>}
-    </div>
+    <>
+      <Navbar />
+      <div style={styles.container}>
+        <h1 style={styles.title}>Unsubscribe from Our Service</h1>
+        <form onSubmit={handleSubmit} style={styles.form}>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            style={styles.input}
+          />
+          <button type="submit" style={styles.button}>
+            Submit
+          </button>
+        </form>
+        {message && <p style={styles.message}>{message}</p>}
+      </div>
+    </>
   );
 };
 
@@ -61,8 +66,14 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     height: "100vh",
-    backgroundColor: "#e6f7ff",
+    backgroundColor: "white",
     padding: "20px",
+  },
+  title: {
+    fontSize: "1.5rem",
+    color: "#3B82F6", // TailwindCSS text-blue-500 color
+    marginBottom: "20px",
+    textAlign: "center",
   },
   form: {
     display: "flex",
@@ -83,12 +94,13 @@ const styles = {
     border: "1px solid #ccc",
     borderRadius: "8px",
     width: "100%",
+    outline: "none",
   },
   button: {
     padding: "12px",
     fontSize: "1rem",
     color: "#fff",
-    backgroundColor: "#007BFF",
+    backgroundColor: "#3B82F6", // TailwindCSS text-blue-500 color
     border: "none",
     borderRadius: "8px",
     cursor: "pointer",
