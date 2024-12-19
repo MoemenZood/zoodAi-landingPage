@@ -44,7 +44,7 @@ const Unsubscribe = () => {
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="email"
-            placeholder="Please enter email account, this account will delete in 14 days"
+            placeholder="Please enter email account, we will review your request"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={styles.input}
