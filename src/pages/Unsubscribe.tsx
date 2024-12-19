@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "../components/Navbar";
-
+import "./placeholder.css";
 const Unsubscribe = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -40,11 +40,11 @@ const Unsubscribe = () => {
     <>
       <Navbar />
       <div style={styles.container}>
-        <h1 style={styles.title}>Unsubscribe from Our Service</h1>
+        <h1 style={styles.title}>Delete account</h1>
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Please enter email account, this account will delete in 14 days"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={styles.input}
@@ -74,6 +74,7 @@ const styles = {
     color: "#2563EB", // TailwindCSS text-blue-600 color
     marginBottom: "20px",
     textAlign: "center",
+    fontWeight: "bold",
   },
   form: {
     display: "flex",
@@ -86,7 +87,7 @@ const styles = {
     borderRadius: "15px",
     boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
     width: "100%",
-    maxWidth: "400px",
+    maxWidth: "600px",
   },
   input: {
     padding: "12px",
@@ -98,7 +99,7 @@ const styles = {
   },
   button: {
     padding: "12px",
-    fontSize: "1rem",
+    fontSize: "1.2rem",
     color: "#fff",
     backgroundColor: "#2563EB", // TailwindCSS text-blue-600 color
     border: "none",
